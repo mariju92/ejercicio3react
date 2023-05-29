@@ -10,10 +10,10 @@ function Saludo() {
   };
 
   return (
-    <div className="App">
+    <section>
       <h1 className='text-center bg-dark text-light my-4 p-4'>{mensaje}</h1>
       <Button onClick={handleClick} variant='danger'>Cambio de saludo</Button>
-    </div>
+      </section>
   );
 }
 
